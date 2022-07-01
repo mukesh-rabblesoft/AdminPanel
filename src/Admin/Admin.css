@@ -1,0 +1,123 @@
+.login-wrap .icon {
+    width: 80px;
+    height: 80px;
+    background: #8d448b;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.login-wrap .icon span {
+    color: #fff;
+}
+.login-wrap {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0 10px 34px -15px rgba(0,0,0,.24);
+    box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+}
+.login-wrap h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #8d448b;
+}
+.form-group {
+    position: relative;
+}
+.rounded-left {
+    border-top-left-radius: 0.25rem!important;
+    border-bottom-left-radius: 0.25rem!important;
+}
+.form-group .submit {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.checkbox-primary {
+    color: #8d448b;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #8d448b;
+}
+.form-control:focus, .form-control:active {
+    /* outline: none!important; */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgba(0,0,0,.07);
+    border-color: transparent;
+}
+.form-control {
+    height: 48px;
+    background: rgba(0,0,0,.05);
+    color: #000;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.text-md-right {
+    text-align: right!important;
+    color: #8d448b;
+    font-weight: 500;
+}
+.rounded-left {
+    border-top-left-radius: 0.25rem!important;
+    border-bottom-left-radius: 0.25rem!important;
+}
+.btn.btn-primary:hover {
+    border: 1px solid #8d448b;
+    background: transparent;
+    color: #8d448b;
+}
+.btn.btn-primary {
+    background: #8d448b!important;
+    border: 1px solid #8d448b!important;
+    color: #fff!important;
+}
+.checkbox-wrap {
+    display: block;
+    position: relative;
+  
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.check{
+    margin-left: 8px;
+}
+.forget {
+    text-decoration: none;
+}
+.forget:hover{
+    color: #8d448b;
+}
+.ftco-section {
+    padding-bottom: 162px;
+    background-color: #f0f0f1;
+    padding-top: 80px;
+}

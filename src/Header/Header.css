@@ -1,0 +1,44 @@
+.top_navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b3c4e;
+    color: white;
+}
+.nav_header {
+    flex: 10%;
+    padding: 8px 15px;
+}
+.right-header {
+    flex: 70%;
+}
+.sidebar_toggle {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.right-header::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.nav.navbar-left {
+    float: left;
+}
+.nav.navbar-right {
+    float: right;
+}
+.dropdown {
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 6px 20px 15px 20px;
+}
+.nav .l1{
+    background-color: #16a085;
+}
+.nav .l2{
+    background-color: #f39c12;
+}
+.nav .l3{
+    background-color: #2980b9;
+}
+
+
