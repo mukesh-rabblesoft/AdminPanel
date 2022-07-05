@@ -141,9 +141,11 @@ class Dashboard extends React.Component {
             </div>
           </div>
 
-<div className="row">
-<DTable/> 
-</div>
+          <div className="row">
+            <div className="col-sm-12">
+              <DTable/>
+            </div>             
+          </div>
 
         </div>
 

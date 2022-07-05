@@ -6,10 +6,43 @@
 .admin_image {
     text-align: center;
 }
+.admin_name {
+    font-size: 22px;
+}
 .sidebar_left {
     flex: 20%;  
     height: 100%;
 }
+.sidebar_left.active{
+    flex: 0%;
+}
+
+.sidebar_left.active .side_collapse ul li a{
+    display: none;
+}
+.sidebar_left.active .side_collapse ul li .sidebar_icon{
+font-size: 30px;
+}
+.sidebar_left.active .admin_image p{
+display: none;
+}
+.sidebar_left.active .admin_image img{
+    max-width: 60px;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    }
+
+.sidebar_left.active .admin_name .adm_name{
+    display: none;
+}
+
+.sidebar_left.active .admin_name .log_out{
+    font-size: 30px;
+    margin-right: 40px;
+}
+
 .side_collapse ul li {
     list-style: none;
     color: white;

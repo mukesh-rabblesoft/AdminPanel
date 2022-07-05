@@ -1,8 +1,13 @@
 import React, { Fragment } from "react";
 import './Header.css';
+import Mycontext from "../MainContext/MainContext";
+
 
 
 class Header extends React.Component{
+
+static contextType = Mycontext;
+
     render(){
         return(
             <Fragment>
@@ -13,7 +18,7 @@ class Header extends React.Component{
 
             <div className="right-header">
               <ul className="nav navbar-left">
-                <li className="sidebar_toggle">
+                <li className="sidebar_toggle" onClick={this.context.clickAdd} >
                   <a>
                     <i className="bi bi-menu-button"></i>
                   </a>
@@ -44,7 +49,6 @@ class Header extends React.Component{
               </ul>
             </div>
           </div>
-            
             </Fragment>
         )
     }
