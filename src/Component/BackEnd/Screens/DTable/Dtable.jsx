@@ -1,41 +1,30 @@
 import React, { Fragment } from "react";
 import "./Dtable.css";
-import Mycontext from "../../MainContext/MainContext";
+import Mycontext from "../../../../MainContext/MainContext";
 
 class DTable extends React.Component {
-   
-
   render() {
-
-    
     return (
       <Fragment>
-     
-<Mycontext.Consumer>
-      {
-        (a)=>a.s.map((result)=>(
-          <>
-          <div key={result}>
-            <h2>{result.fullName}</h2>
-            <h2>{result.age}</h2>
-            <h2>{result.username}</h2>
-            <h2>{result.region}</h2>
-          </div>
-          </>
-        ))
-      
-      }
-</Mycontext.Consumer>
+        {/* <Mycontext.Consumer>
+          {(a) =>
+            a.s.map((result) => (
+              <>
+                <div key={result}>
+                  <h2>{result.fullName}</h2>
+                  <h2>{result.age}</h2>
+                  <h2>{result.username}</h2>
+                  <h2>{result.region}</h2>
+                </div>
+              </>
+            ))
+          }
+        </Mycontext.Consumer>*/}
 
-       {/*
-      
-       <Mycontext.Consumer>
-          {(value) =>(
-           
+        <Mycontext.Consumer>
+          {(value) => (
             <>
-        
               <div className="table-responsive">
-
                 <table className="table">
                   <thead className="bg-light">
                     <tr>
@@ -56,9 +45,7 @@ class DTable extends React.Component {
                             className="rounded-circle"
                           />
                           <div className="ms-3">
-                            <p className="fw-bold mb-1">
-                              {value.det.fullName}
-                            </p>
+                            <p className="fw-bold mb-1"></p>
                             <p className="text-muted mb-0">
                               john.doe@gmail.com
                             </p>
@@ -271,7 +258,6 @@ class DTable extends React.Component {
             </>
           )}
         </Mycontext.Consumer>
-      */}
       </Fragment>
     );
   }

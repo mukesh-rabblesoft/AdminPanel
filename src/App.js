@@ -1,11 +1,12 @@
 import "./App.css";
 import React from "react";
-import Main from "./MainComponent";
-import Admin from "./Admin/Admin";
 import { Routes, Route } from "react-router-dom";
+import BackEnd from "./Component/BackEnd";
 import Mycontext from "./MainContext/MainContext";
-import User from "./Screens/Users/Index";
-import Layout from "./Components/Layout";
+import Dashboard from "./Component/BackEnd/Screens/DashBoard/Dashboard";
+import DTable from "./Component/BackEnd/Screens/DTable/Dtable";
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -51,7 +52,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Layout>
+      
           <Mycontext.Provider
             value={{
               s: this.state.details,
@@ -61,12 +62,16 @@ class App extends React.Component {
             }}
           >
             <Routes>
-              <Route exact path="/" element={<Admin />} />
-              <Route path="/dashboard" element={<Main />} />
-              <Route path="/users" element={<User />} />
+              <Route exact path="/" element={<BackEnd/>}>
+                  <Route index element={<Dashboard/>} />
+                  <Route path="/table" element={<DTable/>} />
+              </Route>
+                
+              
+              
             </Routes>
           </Mycontext.Provider>
-        </Layout>
+
       </div>
     );
   }

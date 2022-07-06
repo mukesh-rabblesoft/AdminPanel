@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./Sidebar.css";
-import Mycontext from "../../MainContext/MainContext";
+import Mycontext from "../../../MainContext/MainContext";
 import { Link } from "react-router-dom";
 
 class Sidebar extends React.Component {
@@ -27,8 +27,7 @@ class Sidebar extends React.Component {
                 <span className="sidebar_icon">
                   <i className="bi bi-speedometer2"></i>
                 </span>
-
-                <Link to="/users">DashBoard</Link>
+                <a>DashBoard</a>
               </li>
               <li>
                 <span className="sidebar_icon">

@@ -40,11 +40,10 @@ class Dashboard extends React.Component {
               <div className="cards cards_2">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon2">
-                   
                     <i className="bi bi-cash"></i>
                   </div>
                 </div>
-                
+
                 <p className="user">REVENUE</p>
                 <p className="count">$32,384</p>
                 <div className="more_info_btn">
@@ -52,7 +51,6 @@ class Dashboard extends React.Component {
                     more{" "}
                     <span>
                       <i className="bi bi-arrow-right-circle"></i>
-                      
                     </span>
                   </a>
                 </div>
@@ -62,11 +60,10 @@ class Dashboard extends React.Component {
               <div className="cards cards_3">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon3">
-                    
                     <i className="bi bi-alarm"></i>
                   </div>
                 </div>
-                
+
                 <p className="user">ALERTS</p>
                 <p className="count">9 New</p>
                 <div className="more_info_btn">
@@ -85,7 +82,6 @@ class Dashboard extends React.Component {
                   <div className="user_icon user_icon4">
                     <i className="bi bi-list-task"></i>
                   </div>
-                  
                 </div>
                 <p className="user">TASKS</p>
                 <p className="count">10</p>
@@ -105,7 +101,6 @@ class Dashboard extends React.Component {
                   <div className="user_icon user_icon5">
                     <i className="bi bi-cart-check-fill"></i>
                   </div>
-                 
                 </div>
                 <p className="user">ORDERS</p>
                 <p className="count">24</p>
@@ -126,7 +121,7 @@ class Dashboard extends React.Component {
                     <i className="bi bi-chat-fill"></i>
                   </div>
                 </div>
-                
+
                 <p className="user">MENTIONS</p>
                 <p className="count">96</p>
                 <div className="more_info_btn">
@@ -140,19 +135,7 @@ class Dashboard extends React.Component {
               </div>
             </div>
           </div>
-
-          <div className="row">
-            <div className="col-sm-12">
-              <DTable/>
-            </div>             
-          </div>
-
         </div>
-
-
-
-
-        
       </Fragment>
     );
   }

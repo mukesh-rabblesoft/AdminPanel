@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
-import "./Main.css";
-
 import Header from "./Header/Header";
-import Sidebar from "./BodyComponent/SidebarMenu/Sidebar";
-import Dashboard from "./BodyComponent/DashBoard/Dashboard";
+import Sidebar from "./SidebarMenu/Sidebar";
+import { Outlet } from "react-router-dom";
+import './index.css';
 
-class Main extends React.Component {
+class BackEnd extends React.Component {
   render() {
     return (
       <Fragment>
@@ -15,7 +14,7 @@ class Main extends React.Component {
           <div className="siderbar_dashboard">
             <Sidebar />
             <div className="dashboard_content">
-              <Dashboard/>
+              <Outlet/>
             </div>
           </div>
         </div>
@@ -24,4 +23,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default BackEnd;
