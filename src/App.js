@@ -5,6 +5,9 @@ import BackEnd from "./Component/BackEnd";
 import Mycontext from "./MainContext/MainContext";
 import Dashboard from "./Component/BackEnd/Screens/DashBoard/Dashboard";
 import DTable from "./Component/BackEnd/Screens/DTable/Dtable";
+import FrontEnd from "./Component/FrontEnd";
+import Home from "./Component/FrontEnd/Screens/Home";
+import About from "./Component/FrontEnd/Screens/About";
 
 
 
@@ -62,9 +65,16 @@ class App extends React.Component {
             }}
           >
             <Routes>
-              <Route exact path="/" element={<BackEnd/>}>
+
+              <Route path="/" element={<FrontEnd/>}>
+                  <Route index element={<Home/>} />
+                  <Route path="/about" element={<About/>} />
+              </Route>
+
+
+              <Route exact path="/admin" element={<BackEnd/>}>
                   <Route index element={<Dashboard/>} />
-                  <Route path="/table" element={<DTable/>} />
+                  <Route path="table" element={<DTable/>} />
               </Route>
                 
               

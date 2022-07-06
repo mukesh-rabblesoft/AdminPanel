@@ -17,7 +17,7 @@ class Dashboard extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards">
                 <div className="user_icon_top">
                   <div className="user_icon">
@@ -36,7 +36,7 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards cards_2">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon2">
@@ -56,7 +56,7 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards cards_3">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon3">
@@ -76,7 +76,7 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards cards_4">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon4">
@@ -95,7 +95,7 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards cards_5">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon5">
@@ -114,7 +114,7 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="cards cards_6">
                 <div className="user_icon_top">
                   <div className="user_icon user_icon6">

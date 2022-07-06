@@ -10,7 +10,7 @@
     font-size: 22px;
 }
 .sidebar_left {
-    flex: 20%;  
+    flex: 10%;  
     height: 100%;
 }
 .sidebar_left.active{
