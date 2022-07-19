@@ -13,7 +13,7 @@ static contextType = Mycontext;
             <Fragment>
             <div className="top_navbar">
             <div className="nav_header">
-              <img src="./images/rabblesoft-logo-pink-white.png" />
+              <img src="../images/rabblesoft-logo-pink-white.png" />
             </div>
 
             <div className="right-header">

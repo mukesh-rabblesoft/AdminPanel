@@ -65,7 +65,6 @@ class App extends React.Component {
             }}
           >
             <Routes>
-
               <Route path="/" element={<FrontEnd/>}>
                   <Route index element={<Home/>} />
                   <Route path="/about" element={<About/>} />
